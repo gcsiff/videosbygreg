@@ -4,39 +4,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Videos by Greg</title>
+  <meta name="description" content="Greg Csiffary - Videographer, editor and visual memory collector.">
+  <title>Greg Csiffary | Videographer</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>VIDEOS BY GREG</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
+  <header class="header">
+    <a class="logo" href="#home">GREG CSIFFARY</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navigation">
+      <a href="#bio">Bio</a>
+      <a href="#wedding">Wedding</a>
+      <a href="#social">Social Media</a>
+      <a href="#realestate">Real Estate</a>
+      <a href="#event">Event</a>
+      <a href="#theatre">Theatre</a>
     </nav>
   </header>
 
   <main id="home">
-    <h2>Stories told through film.</h2>
-    <p>Welcome to Videos by Greg.</p>
 
-    <section id="portfolio">
+    <!-- HERO / SHOWREEL -->
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">VIDEOGRAPHER & FILMMAKER</p>
+        <h1>Stories told<br>through film.</h1>
+        <p>Greg Csiffary — Videographer, editor, visual memory collector.</p>
+        <a class="button" href="#portfolio">Explore my work</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/showreel-poster.jpg"
+          alt="Greg Csiffary showreel">
+      </div>
+    </section>
+
+    <!-- BIO -->
+
+    <section class="bio section" id="bio">
+      <div class="bio-image">
+        <img src="images/greg-portrait.jpg"
+          alt="Greg Csiffary">
+      </div>
+
+      <div class="bio-text">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Greg Csiffary</h2>
+        <h3>Videographer, editor, visual memory collector</h3>
+
+        <p>
+          Videography is a passion not just a profession for me.
+          I love to be out on the field and I also like creating
+          a narrative during editing.
+        </p>
+
+        <p>
+          A freelance videographer for 6+ years now, I was
+          fortunate to capture diverse topics all over the world —
+          from making wedding videos in Iceland, following dance
+          companies on their European tour, filming innovative
+          buildings, to capturing branded and corporate events in CEE.
+        </p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO INTRODUCTION -->
+
+    <section class="portfolio section" id="portfolio">
+      <p class="eyebrow">SELECTED WORK</p>
       <h2>My Portfolio</h2>
-      <p>Wedding | Social Media | Real Estate | Events | Theatre</p>
+
+      <div class="portfolio-grid">
+
+        <a class="portfolio-card" href="#wedding">
+          <img src="images/wedding.jpg" alt="Wedding films">
+          <div class="card-text">
+            <h3>Wedding</h3>
+            <p>Capturing many joyful moments and unique scenes
+              to craft everlasting memories.</p>
+          </div>
+        </a>
+
+        <a class="portfolio-card" href="#social">
+          <img src="images/social-media.jpg" alt="Social media films">
+          <div class="card-text">
+            <h3>Social Media</h3>
+            <p>Crafting scroll-stopping moments that connect
+              audiences and bring brands to life online.</p>
+          </div>
+        </a>
+
+        <a class="portfolio-card" href="#realestate">
+          <img src="images/real-estate.jpg" alt="Real estate films">
+          <div class="card-text">
+            <h3>Real Estate</h3>
+            <p>As a fan of architecture, it's a privilege to
+              capture the beauty and poetry of large structures.</p>
+          </div>
+        </a>
+
+        <a class="portfolio-card" href="#event">
+          <img src="images/event.jpg" alt="Event films">
+          <div class="card-text">
+            <h3>Event</h3>
+            <p>Expos, conferences, brand events. Capturing the
+              best moments and telling a dynamic story.</p>
+          </div>
+        </a>
+
+        <a class="portfolio-card" href="#theatre">
+          <img src="images/theatre.jpg" alt="Theatre films">
+          <div class="card-text">
+            <h3>Theatre</h3>
+            <p>Performance, mood and international tour videos
+              of the Hungarian State Folk Ensemble.</p>
+          </div>
+        </a>
+
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Let's work together</h2>
-      <p>Get in touch to discuss your next project.</p>
+    <!-- VIDEO PORTFOLIO SECTIONS -->
+
+    <section class="video-section section" id="wedding">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2>Wedding</h2>
+      <p>Capturing joyful moments and everlasting memories.</p>
+      <div class="video-placeholder">
+        Your wedding video will appear here.
+      </div>
     </section>
+
+    <section class="video-section section" id="social">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2>Social Media</h2>
+      <p>Stories that connect audiences and bring brands to life.</p>
+      <div class="video-placeholder">
+        Your social media videos will appear here.
+      </div>
+    </section>
+
+    <section class="video-section section" id="realestate">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2>Real Estate</h2>
+      <p>Capturing the beauty and poetry of architecture.</p>
+      <div class="video-placeholder">
+        Your real estate videos will appear here.
+      </div>
+    </section>
+
+    <section class="video-section section" id="event">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2>Event</h2>
+      <p>Expos, conferences and brand events.</p>
+      <div class="video-placeholder">
+        Your event videos will appear here.
+      </div>
+    </section>
+
+    <section class="video-section section" id="theatre">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h2>Theatre</h2>
+      <p>Performance, mood and international tour films.</p>
+      <div class="video-placeholder">
+        Your theatre videos will appear here.
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let's capture<br>something wonderful.</h2>
+      <p>Contact me so we can capture wonderful projects together.</p>
+
+      <a href="mailto:gcsiff@gmail.com">gcsiff@gmail.com</a>
+      <a href="tel:+36304825997">+36-30-482-5997</a>
+    </section>
+
   </main>
 
   <footer>
-    <p>© 2026 Videos by Greg</p>
+    <p>© <span id="year"></span> Greg Csiffary</p>
+    <a href="#home">Back to top ↑</a>
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
